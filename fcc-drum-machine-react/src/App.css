@@ -17,7 +17,7 @@ h1 {
   width: 50vw;
   margin: 75px auto 0 auto;
   border-radius: 8px;
-  color: #000;
+  color: #04102f;
 }
 
 #display {
@@ -42,19 +42,19 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(180, 147, 99, 0.7);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #01091a;
   cursor: pointer;
   transition: border-color 0.25s;
   width: 9%;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: rgba(57, 224, 168, 1);
 }
 button:focus,
 button:focus-visible {
@@ -65,4 +65,8 @@ span {
   display: block;
   font-size: 0.8rem;
   padding-top: 3px;
+}
+
+#button-display {
+  font-weight: bold;
 }
