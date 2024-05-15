@@ -35,6 +35,7 @@ function App() {
 
 	return (
 		<>
+      <h1>JavaScript Drum Machine</h1>
 			<div id='drum-machine'>
 				<div id='display'>
 					<div id='button-container'>
