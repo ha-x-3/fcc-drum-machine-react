@@ -1,5 +1,6 @@
 body {
   background-image: url('./assets/background.jpg');
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,12 +9,20 @@ body {
 #display {
   width: 98vw;
   height: 25vh;
-  margin: auto;
+  margin: 70vh auto 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   background-color: rgba(140, 179, 123, 0.5);
   border-radius: 8px;
+}
+
+#button-container {
+  width: 98vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 button {
